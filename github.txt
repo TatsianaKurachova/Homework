@@ -1,5 +1,2 @@
-Домашка 1
-https://github.com/TatsianaKurachova/Homework_STEP/tree/dev
-
-Домашка2
-https://github.com/TatsianaKurachova/Homework_STEP/tree/dev1
+Домашка 
+https://github.com/TatsianaKurachova/Homework/tree/dev

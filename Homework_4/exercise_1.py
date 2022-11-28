@@ -2,10 +2,10 @@
 # в котором каждый элемент списка является и ключом и значением. Предполагается, 
 # что элементы списка будут соответствовать правилам задания ключей в словарях.
 
-def to_dict(lst):
-  return {element: element for element in lst}
+def to_dict(list):
+  return {element: element for element in list}
 print(to_dict([1, 2, 3, 4]))
-print(to_dict(['grey', (2, 17), 3.11, -4]))
+print(to_dict(['hello', (7, 3), 5.01, -4]))
 
 
 
