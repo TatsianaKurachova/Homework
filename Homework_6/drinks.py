@@ -5,7 +5,7 @@ def response():
     data = r.json()
     dict = ''
     for item in data['drinks']:
-        dict += (f"Name: {item['strDrink']} \n, How_to_do: {item['strInstructions']}, \n Picture: {item['strDrinkThumb']}, \n")
+        dict += (f"Name: {item['strDrink']}, \n How_to_do: {item['strInstructions']}, \n Picture: {item['strDrinkThumb']}, \n")
     return dict
  
 def record(x):
