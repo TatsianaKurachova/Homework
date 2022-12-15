@@ -5,7 +5,7 @@ def response():
     data = r.json()
     str = ''
     for item in data['drinks']:
-        str += (f"Cocktail: {item['strDrink']}, How to prepare: {item['strInstructions']}, Link to photo: {item['strDrinkThumb']} \n")
+        str += (f"Cocktail_Name: {item['strDrink']}, How_to_do: {item['strInstructions']}, Picture: {item['strDrinkThumb']} \n")
     return str
  
 def record(x):
